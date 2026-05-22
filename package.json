@@ -1,0 +1,16 @@
+{
+  "name": "log-analyzer",
+  "version": "1.0.0",
+  "description": "Log Analyzer Technical Assessment",
+  "type": "module",
+  "bin": {
+    "log-analyzer": "./bin/analyze.js"
+  },
+  "scripts": {
+    "generate": "node scripts/generate_logs.js",
+    "analyze": "node bin/analyze.js",
+    "test": "node scripts/test_parser.js"
+  },
+  "author": "Antigravity Agent",
+  "license": "ISC"
+}

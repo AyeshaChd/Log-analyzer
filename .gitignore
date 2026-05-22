@@ -1,0 +1,15 @@
+# Logs
+*.log
+*.txt
+
+# HTML reports
+*.html
+!src/**/*.html
+
+# Node
+node_modules/
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
